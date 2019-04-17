@@ -27,7 +27,8 @@ def upload(path):
     driver = webdriver.Chrome(executable_path=chromedriver_exe, chrome_options=chrome_options)
     driver.get("http://www.e-guvernare.ro/redirectfunic.htm")
     time.sleep(5)
-    pyautogui.typewrite('enter', interval=1)
+    pyautogui.press('enter')
+    time.sleep(30)
     # try:   #wait for page to load
     #     element = WebDriverWait(driver, 60).until(
     #             EC.presence_of_element_located((By.NAME, "linkdoc"))
