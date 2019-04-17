@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<declaratieUnica  luna_r="02" an_r="2019" d_rec="0" nume_declar="AETELOR" prenume_declar="GHEORGHE" functie_declar="ADMINISTRATOR" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="mfp:anaf:dgti:declaratie_unica:declaratie:v3 DecUnica.xsd" xmlns="mfp:anaf:dgti:declaratie_unica:declaratie:v3">
+	<angajator cif="17271578" rgCom="J27-366  /2005" caen="8559" den="S.C. MODELING   MEDIA SERV S.R.L." adrSoc="JUD.NEAMT,LOC.ROMAN" adrFisc="JUD.NEAMT,LOC.ROMAN" casaAng="NT" datCAM="1" bifa_CAM="0" totalPlata_A="1087">
+	<angajatorA A_codOblig="602" A_codBugetar="5503XXXXXX" A_datorat="118" A_deductibil="0" A_scutit="0" A_plata="118" />
+	<angajatorA A_codOblig="412" A_codBugetar="5503XXXXXX" A_datorat="650" A_deductibil="0" A_scutit="0" A_plata="650" />
+	<angajatorA A_codOblig="432" A_codBugetar="5503XXXXXX" A_datorat="260" A_deductibil="0" A_scutit="0" A_plata="260" />
+	<angajatorA A_codOblig="480" A_codBugetar="20470300XX" A_datorat="59" A_deductibil="0" A_scutit="0" A_plata="59" />
+	<angajatorB B_cnp="1" B_sanatate="2" B_pensie="2" B_brutSalarii="2600" B_sal="2" />
+	<angajatorC1 C1_11="2600" C1_12="0" C1_21="0" C1_22="0" C1_31="0" C1_32="0" C1_T1="2600" C1_T2="0" C1_T3="0" C1_5="0" C1_7="0" />
+	<angajatorC2 C2_11="0" C2_12="0" C2_13="0" C2_14="0" C2_15="0" C2_16="0" C2_21="0" C2_22="0" C2_24="0" C2_26="0" C2_31="0" C2_32="0" C2_34="0" C2_36="0" C2_41="0" C2_42="0" C2_44="0" C2_46="0" C2_51="0" C2_52="0" C2_54="0" C2_56="0" C2_T6="0" C2_10="0" C2_140="0" />
+	<angajatorC3 C3_11="0" C3_12="0" C3_13="0" C3_14="0" C3_21="0" C3_22="0" C3_23="0" C3_24="0" C3_31="0" C3_32="0" C3_33="0" C3_34="0" C3_41="0" C3_42="0" C3_43="0" C3_44="0" C3_total="0" C3_suma="0" />
+	<angajatorC4 C4_baza="2600" C4_ct="59" />
+	<angajatorC5 C5_baza="0" C5_ct="0" />
+	<angajatorD D2="0" D3="0" />
+	<angajatorE1 E1_venit="0" E1_baza="0" />
+	<angajatorE2 E2_11="0" E2_12="0" E2_14="0" E2_16="0" E2_21="0" E2_22="0" E2_24="0" E2_26="0" E2_31="0" E2_32="0" E2_34="0" E2_36="0" E2_41="0" E2_42="0" E2_44="0" E2_46="0" E2_51="0" E2_52="0" E2_54="0" E2_56="0" E2_66="0" E2_10="0" E2_140="0" />
+	<angajatorE3 E3_total="0" E3_suma="0" />
+	<angajatorE4 E4_aj_nr="0" E4_aj_suma="0" />
+	<angajatorF1 F1_suma="118" F1_deplata="118" />
+</angajator>
+	<asigurat  cnpAsig="1740423274799" idAsig="1" numeAsig="AFETELOR" prenAsig="GHEORGHE" dataAng="11.02.2013" casaSn="NT" asigCI="1" asigSO="1" asigExc="1" >
+		<asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="2080" A_6="160" A_7="0" A_8="20" A_9="2080" A_11="2080" A_12="208" A_13="2080" A_14="520" />
+		<asiguratE1 E1_1="2080" E1_2="728" E1_3="0" E1_4="510" E1_5="0" E1_6="842" E1_7="84"/>
+		<asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="2080" E3_9="728" E3_10="0" E3_11="0" E3_12="510" E3_13="0" E3_14="842" E3_15="84" E3_16="1268" E3_18="0" E3_19="0" E3_21="0"/>
+	</asigurat>
+	<asigurat  cnpAsig="1520409272644" idAsig="2" numeAsig="NECULAI" prenAsig="MIRCEA" dataAng="28.05.2013" casaSn="NT" asigCI="1" asigSO="2" asigExc="1" >
+		<asiguratA A_1="1" A_2="1" A_3="P2" A_4="8" A_5="520" A_6="40" A_8="20" A_9="0" A_11="520" A_12="52" A_13="520" A_14="130" />
+		<asiguratE1 E1_1="520" E1_2="182" E1_3="0" E1_4="0" E1_5="0" E1_6="338" E1_7="34"/>
+		<asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="520" E3_9="182" E3_10="0" E3_11="0" E3_12="0" E3_13="0" E3_14="338" E3_15="34" E3_16="304" E3_18="0" E3_19="0" E3_21="0"/>
+	</asigurat>
+</declaratieUnica>
