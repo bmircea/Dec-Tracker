@@ -6,6 +6,7 @@ import os
 import json
 import logging
 #import miner
+from main import *
 import pyautogui
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -18,23 +19,33 @@ from selenium.webdriver.remote.remote_connection import LOGGER
 
 # =============================================================================
 chrome_options = Options()
-chrome_options.add_argument("--disable-gpu")
+#chrome_options.add_argument("--disable-gpu")
 #chrome_options.add_argument("start-maximized")
 # =============================================================================
 
 
 def upload(path):
-    driver = webdriver.Chrome(executable_path=chromedriver_exe, chrome_options=chrome_options)
+    # open web driver
+    driver = webdriver.Chrome(chrome_options=chrome_options)
     driver.get("http://www.e-guvernare.ro/redirectfunic.htm")
-    time.sleep(5)
+    # click button to verify certificate
+    try:
+        element = WebDriverWait(driver, 60).until(
+        EC.presence_of_element_located((By.XPATH, '//input[@value="Prezentare certificat"]'))
+        )
+    finally:
+        pass  #TODO: raise error when button not found
+    driver.find_element_by_xpath('//input[@value="Prezentare certificat"]').click()
+    time.sleep(1)
     pyautogui.press('enter')
-    time.sleep(30)
+
+
     # try:   #wait for page to load
     #     element = WebDriverWait(driver, 60).until(
     #             EC.presence_of_element_located((By.NAME, "linkdoc"))
     #             )
     # finally:
-    #     irg = 1
+    #     pass
     # # create and launch unpack command to pdftk
     # print(path)
     # unpack(path)
@@ -82,3 +93,4 @@ def upload(path):
     # new_name = index + ".pdf"
     # mod_p = os.path.join(dec_path, new_name)
     # os.rename(new_p, mod_p)
+upload('a')

@@ -6,7 +6,6 @@ with open("config.json", "r+") as f:
     f.close()
 
 
-LOGGER.setLevel(logging.WARNING)
 path = config["PATHS"]["main"]
 dec_path = os.path.join(path, "dec")
 pdf_path = os.path.join(path, "recipise")
