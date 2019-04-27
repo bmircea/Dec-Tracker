@@ -38,7 +38,7 @@ def upload(path):
     driver.find_element_by_xpath('//input[@value="Prezentare certificat"]').click()
     time.sleep(1)
     pyautogui.press('enter')
-
+    time.sleep(30)
 
     # try:   #wait for page to load
     #     element = WebDriverWait(driver, 60).until(
@@ -46,6 +46,9 @@ def upload(path):
     #             )
     # finally:
     #     pass
+    # #copy pdf file
+    # copyfile(path, )
+    #
     # # create and launch unpack command to pdftk
     # print(path)
     # unpack(path)
