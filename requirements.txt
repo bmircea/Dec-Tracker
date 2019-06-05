@@ -11,6 +11,4 @@ selenium
 setuptools 
 six
 urllib3  
-wheel 
-wxPython
-pathlib2
+wheel
