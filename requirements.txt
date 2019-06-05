@@ -12,4 +12,5 @@ setuptools
 six
 urllib3  
 wheel 
-wxPython  
+wxPython
+pathlib2
