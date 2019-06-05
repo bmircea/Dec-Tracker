@@ -1,0 +1,15 @@
+certifi
+chardet   
+Cython  
+docutils   
+idna   
+Kivy-Garden  
+pip   
+Pygments  
+requests  
+selenium 
+setuptools 
+six
+urllib3  
+wheel 
+wxPython  
