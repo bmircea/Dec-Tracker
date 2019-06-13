@@ -2,6 +2,7 @@ import os
 import shutil
 import subprocess
 
+
 if os.getenv('PDFTK_PATH'):
     PDFTK_PATH = os.getenv('PDFTK_PATH')
 else:

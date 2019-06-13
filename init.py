@@ -1,6 +1,11 @@
 import sqlite3
+from multiprocessing import Pipe
 
-# Create DB, conn and cursor
+#Create Connection
+
+#a = Pipe()
+
+# Connect and create cursor
 
 conn = sqlite3.connect("store.db")
 c = conn.cursor()
